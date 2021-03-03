@@ -1,0 +1,22 @@
+{
+  "name": "Telemark",
+  "version": "1.0",
+  "description": "Bookmark your tabs in Telegram!",
+  "browser_action": {
+    "default_popup": "popup/index.html",
+    "default_icon": {
+      "16": "images/telemark_16.png",
+      "32": "images/telemark_32.png",
+      "48": "images/telemark_48.png",
+      "128": "images/telemark_128.png"
+    }
+  },
+  "icons": {
+    "16": "images/telemark_16.png",
+    "32": "images/telemark_32.png",
+    "48": "images/telemark_48.png",
+    "128": "images/telemark_128.png"
+  },
+  "permissions": ["storage", "tabs", "https://api.tgmark.ir/*"],
+  "manifest_version": 2
+}
