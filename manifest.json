@@ -1,6 +1,6 @@
 {
   "name": "Telemark",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Bookmark your tabs in Telegram!",
   "browser_action": {
     "default_popup": "popup/index.html",
@@ -11,12 +11,34 @@
       "128": "images/telemark_128.png"
     }
   },
+  "commands": {
+    "send-to-telegram": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "Send to Telegram."
+    }
+  },
   "icons": {
     "16": "images/telemark_16.png",
     "32": "images/telemark_32.png",
     "48": "images/telemark_48.png",
     "128": "images/telemark_128.png"
   },
-  "permissions": ["storage", "tabs", "https://api.tgmark.ir/*"],
+  "background": {
+    "scripts": [
+      "script/jquery.js",
+      "script/functions.js",
+      "script/background.js"
+    ]
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "contextMenus",
+    "clipboardRead",
+    "https://api.tgmark.ir/*"
+  ],
   "manifest_version": 2
 }

@@ -55,6 +55,8 @@ header {
   background-color: #01b2a0;
 }
 .configuration {
+  border-top: 1.5px solid #e6e6e7;
+  position: relative;
   margin-top: 20px;
 }
 .configuration h2 {
@@ -78,7 +80,7 @@ header {
   margin: 5px;
 }
 #button-save {
-  margin: 5px 0 30px;
+  margin: 5px 0 15px;
 }
 #button-reset {
   display: none;
@@ -130,7 +132,23 @@ a:hover {
 #check {
   display: none;
 }
-
+#paste {
+  position: absolute;
+  right: 10px;
+  top: 45px;
+  cursor: pointer;
+}
+#shortcuts {
+  margin: -15px 0 20px 0;
+}
+#shortcuts p {
+  font-size: 12px;
+}
+#shortcuts span {
+  font-size: 11px;
+  padding: 0 4px;
+  background-color: #e6e6e7;
+}
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #0e1117;
@@ -138,6 +156,9 @@ a:hover {
   }
   header {
     border-bottom: 1.5px solid #30363c;
+  }
+  #shortcuts span {
+    background-color: #30363c;
   }
   #telemark-url {
     background-color: #30363c;
@@ -147,5 +168,8 @@ a:hover {
     background-color: #0e1117;
     border: 2px solid #30363c;
     color: #ffffff;
+  }
+  .configuration {
+    border-top: 1.5px solid #30363c;
   }
 }
