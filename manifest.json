@@ -24,6 +24,12 @@
       "script/background.js"
     ]
   },
-  "permissions": ["storage", "tabs", "contextMenus", "https://api.tgmark.ir/*"],
+  "permissions": [
+    "storage",
+    "tabs",
+    "contextMenus",
+    "clipboardRead",
+    "https://api.tgmark.ir/*"
+  ],
   "manifest_version": 2
 }
