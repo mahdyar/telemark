@@ -17,6 +17,13 @@
     "48": "images/telemark_48.png",
     "128": "images/telemark_128.png"
   },
-  "permissions": ["storage", "tabs", "https://api.tgmark.ir/*"],
+  "background": {
+    "scripts": [
+      "script/jquery.js",
+      "script/functions.js",
+      "script/background.js"
+    ]
+  },
+  "permissions": ["storage", "tabs", "contextMenus", "https://api.tgmark.ir/*"],
   "manifest_version": 2
 }
