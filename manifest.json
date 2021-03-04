@@ -11,6 +11,15 @@
       "128": "images/telemark_128.png"
     }
   },
+  "commands": {
+    "send-to-telegram": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "Send to Telegram."
+    }
+  },
   "icons": {
     "16": "images/telemark_16.png",
     "32": "images/telemark_32.png",
