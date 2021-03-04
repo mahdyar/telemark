@@ -50,7 +50,7 @@ function sendToTelegram(url, title, telemark_code) {
     url: "https://api.tgmark.ir/",
     method: "POST",
     data: JSON.stringify({
-      url: encodeURIComponent(url),
+      url: url,
       title: title,
       telemark_code: telemark_code,
     }),
