@@ -28,6 +28,7 @@ $(document).ready(function () {
     } else {
       $(".signup").show();
       $(".telemark").hide();
+      $("#shortcuts").hide();
     }
   });
 });

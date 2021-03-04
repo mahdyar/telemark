@@ -80,7 +80,7 @@ header {
   margin: 5px;
 }
 #button-save {
-  margin: 5px 0 0;
+  margin: 5px 0 15px;
 }
 #button-reset {
   display: none;
@@ -139,7 +139,7 @@ a:hover {
   cursor: pointer;
 }
 #shortcuts {
-  margin-bottom: 20px;
+  margin: -15px 0 20px 0;
 }
 #shortcuts p {
   font-size: 12px;
