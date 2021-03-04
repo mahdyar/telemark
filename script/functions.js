@@ -45,3 +45,21 @@ function reset() {
     location.reload();
   });
 }
+function sendToTelegram(url, title, telemark_code) {
+  $.ajax({
+    url: "https://api.tgmark.ir/",
+    method: "POST",
+    data: JSON.stringify({
+      url: encodeURIComponent(url),
+      title: title,
+      telemark_code: telemark_code,
+    }),
+    success: function (data, textStatus, request) {
+      $("#loading").hide();
+      $("#check").fadeIn();
+    },
+    error: function (request, status, error) {
+      alert("Something went wrong!");
+    },
+  });
+}

@@ -22,22 +22,7 @@ $(document).ready(function () {
         $("#button-send").click(function () {
           $("#button-send span").hide();
           $("#loading").show();
-          $.ajax({
-            url: "https://api.tgmark.ir/",
-            method: "POST",
-            data: JSON.stringify({
-              url: encodeURIComponent(url),
-              title: title,
-              telemark_code: result.telemark_code,
-            }),
-            success: function (data, textStatus, request) {
-              $("#loading").hide();
-              $("#check").fadeIn();
-            },
-            error: function (request, status, error) {
-              alert("Something went wrong!");
-            },
-          });
+          sendToTelegram(encodeURIComponent(url), title, result.telemark_code);
         });
       });
     } else {
