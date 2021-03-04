@@ -55,6 +55,7 @@ header {
   background-color: #01b2a0;
 }
 .configuration {
+  position: relative;
   margin-top: 20px;
 }
 .configuration h2 {
@@ -129,6 +130,12 @@ a:hover {
 }
 #check {
   display: none;
+}
+#paste {
+  position: absolute;
+  right: 10px;
+  top: 45px;
+  cursor: pointer;
 }
 
 @media (prefers-color-scheme: dark) {

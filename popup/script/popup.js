@@ -48,5 +48,9 @@ $("#button-reset").click(function () {
   reset();
 });
 $(".input-userid").focus(function () {
-  hideError();
+  hideMessage();
+});
+$("#paste").click(function () {
+  $(".input-userid").val("").focus();
+  document.execCommand("paste");
 });
