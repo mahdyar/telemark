@@ -8,8 +8,8 @@ Bookmark your tabs in Telegram!
 ## API
 The code behind `api.tgmark.ir` is avaiable [here](https://gist.github.com/mahdyar/47348a67eb83d336d4bb0556a40bcc32). It's deployed with [Cloudflare Workers®](https://workers.cloudflare.com/).
 ## Preview
-![1](https://user-images.githubusercontent.com/20593549/110006601-18539d80-7d2f-11eb-986c-ecab5ebf85d8.jpg)
+![1](https://user-images.githubusercontent.com/20593549/114313386-88fa9080-9b0b-11eb-9268-03b293cf7b75.jpeg)
 
-![2](https://user-images.githubusercontent.com/20593549/110006613-1be72480-7d2f-11eb-9f2d-56a8c1cceea6.jpg)
+![2](https://user-images.githubusercontent.com/20593549/114313393-9152cb80-9b0b-11eb-84a6-a0a8d14f8bdc.jpeg)
 
-![3](https://user-images.githubusercontent.com/20593549/110006617-1d185180-7d2f-11eb-84c7-4ac86f0de9c9.jpg)
+![3](https://user-images.githubusercontent.com/20593549/114313504-04f4d880-9b0c-11eb-90c1-bd8b0806ee84.jpeg)
