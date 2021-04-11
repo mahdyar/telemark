@@ -1,6 +1,6 @@
 {
   "name": "Telemark",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Bookmark your tabs in Telegram!",
   "browser_action": {
     "default_popup": "popup/index.html",
@@ -14,8 +14,8 @@
   "commands": {
     "send-to-telegram": {
       "suggested_key": {
-        "default": "Ctrl+Shift+S",
-        "mac": "Command+Shift+S"
+        "default": "Ctrl+Shift+K",
+        "mac": "Command+Shift+K"
       },
       "description": "Send to Telegram."
     }
