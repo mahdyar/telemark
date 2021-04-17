@@ -32,6 +32,7 @@ $(document).ready(function () {
     }
   });
 });
+
 $("#button-save").click(function () {
   let value = $(".input-userid").val();
   let isValid = validateUserId(value);
@@ -48,10 +49,19 @@ $("#button-save").click(function () {
 $("#button-reset").click(function () {
   reset();
 });
+
 $(".input-userid").focus(function () {
   hideMessage();
 });
+
 $("#paste").click(function () {
   $(".input-userid").val("").focus();
   document.execCommand("paste");
+});
+
+$("#shortcuts a").click(function (e) {
+  e.preventDefault();
+  var newURL = "chrome://extensions/shortcuts";
+  chrome.tabs.create({ url: newURL });
+  return false;
 });

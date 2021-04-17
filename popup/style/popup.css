@@ -141,10 +141,14 @@ a:hover {
 #shortcuts {
   margin: -15px 0 20px 0;
 }
+#shortcuts h3 {
+  display: inline-block;
+  margin: 15px 0 0;
+}
 #shortcuts p {
   font-size: 12px;
 }
-#shortcuts span {
+.shortcut {
   font-size: 11px;
   padding: 0 4px;
   background-color: #e6e6e7;
@@ -157,7 +161,7 @@ a:hover {
   header {
     border-bottom: 1.5px solid #30363c;
   }
-  #shortcuts span {
+  .shortcut {
     background-color: #30363c;
   }
   #telemark-url {
