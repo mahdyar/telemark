@@ -5,6 +5,7 @@
 Bookmark your tabs in Telegram!
 ## Download
 <a href="https://chrome.google.com/webstore/detail/telemark/pfpelimafhpcfmngnaafnndojnankolc"><img src="https://user-images.githubusercontent.com/20593549/109499549-4aa09900-7aaa-11eb-9a08-606576d9b18a.png" alt="Google Chrome" width="45"/></a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/telemark-ext/"><img src="https://user-images.githubusercontent.com/20593549/109499665-71f76600-7aaa-11eb-96a7-caa03382d615.png" alt="Mozilla Firefox" width="45" /></a>
 ## API
 The code behind `api.tgmark.ir` is avaiable [here](https://gist.github.com/mahdyar/47348a67eb83d336d4bb0556a40bcc32). It's deployed with [Cloudflare Workers®](https://workers.cloudflare.com/).
 ## Preview
