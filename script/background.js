@@ -5,7 +5,12 @@ chrome.contextMenus.create({
   onclick: function (link) {
     chrome.storage.sync.get(["telemark_code"], function (result) {
       if (result.telemark_code) {
-        sendToTelegram(link.linkUrl, getBrowser() == "Chrome" ? link.selectionText : link.linkText, result.telemark_code);
+        var text;
+        if (typeof link.linkText !== "undefined") text = link.linkText;
+        else if (typeof link.selectionText !== "undefined")
+          text = link.selectionText;
+        else text = link.linkUrl;
+        sendToTelegram(link.linkUrl, text, result.telemark_code);
       } else {
         alert("First enter your telemark code.");
       }
